@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MakeCode-Android</string>
+    <string name="mimetype">text/html</string>
+    <string name="encoding">utf-8</string>
+    <string name="id_juego">ID juego:</string>
+    <string name="button_load">LOAD</string>
+    <string name="grupo_de_trabajo_makecode_arcade_valencia">Grupo de trabajo MakeCode Arcade Valencia</string>
+    <string name="sobre_nosotros">Sobre nosotros</string>
+    <string name="makecode_arcade_on_android">MakeCode Arcade en Android</string>
+    <string name="app_desarrollada_dentro_del_grupo_de_trabajo_makecode_arcade">App desarrollada dentro del grupo de trabajo MakeCode Arcade.</string>
+    <string name="valencia_espa_a">Valencia (España)</string>
+    <string name="curso_acad_mico_2022_2023">Curso académico 2022-2023</string>
+</resources>

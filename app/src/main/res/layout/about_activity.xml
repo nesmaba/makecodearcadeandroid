@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textViewTituloAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/makecode_arcade_on_android"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/textViewInfoAbout"
+        android:paddingTop="100dp"
+        android:paddingBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/textViewInfoAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_desarrollada_dentro_del_grupo_de_trabajo_makecode_arcade"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewTituloAbout"
+        />
+    <TextView
+        android:id="@+id/textViewInfo2About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valencia_espa_a"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewInfoAbout"
+        />
+    <TextView
+        android:id="@+id/textViewInfo3About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/curso_acad_mico_2022_2023"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/textViewInfo2About"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
