@@ -10,6 +10,7 @@ import android.view.WindowManager
 import android.webkit.WebView
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var myWebView: WebView
     private lateinit var buttonCargar: Button
     private lateinit var editTextIdGame: EditText
+    private lateinit var imageViewInstructions: ImageView
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,8 +36,11 @@ class MainActivity : AppCompatActivity() {
         this.buttonCargar.setOnClickListener(object : View.OnClickListener {
             override fun onClick(view: View?) {
                 // Do some work here
-                if(!editTextIdGame.text.equals(""))
+                if(!editTextIdGame.text.equals("")) {
+                    imageViewInstructions.visibility=View.INVISIBLE
+                    myWebView.visibility=View.VISIBLE
                     openGame(editTextIdGame.text.toString())
+                }
 
             }
         })
